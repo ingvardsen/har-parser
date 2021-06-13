@@ -29,4 +29,13 @@ mix escript.build
 ./har_parser ~/data/my.har http
 ./har_parser ~/data/my.har api/v1/
 ./har_parser ~/data/my.har domaine.com
+
+# Example output
+./har_parser /my/local/folder/data/dd.har ip3
+
+3:37:42.665 [info]  Processing /my/local/folder/data/dd.har, ip3
+404, GET, https://external-content.duckduckgo.com/ip3/davidtang.io.ico
+404, GET, https://external-content.duckduckgo.com/ip3/daisymolving.github.io.ico
+200, GET, https://external-content.duckduckgo.com/ip3/github.com.ico
+200, GET, https://external-content.duckduckgo.com/ip3/hackernoon.com.ico
 ```
