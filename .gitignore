@@ -1,3 +1,6 @@
+# binary
+har_parser
+
 # The directory Mix will write compiled artifacts to.
 /_build/
 
@@ -20,7 +23,7 @@ erl_crash.dump
 *.ez
 
 # Ignore package tarball (built via "mix hex.build").
-har_parser-*.tar
+cli_first-*.tar
 
 # Temporary files, for example, from tests.
 /tmp/
